@@ -1,5 +1,4 @@
-# Stronghold
-Stronghold tools
+# Menu
 
 --------
 --------
@@ -47,4 +46,4 @@ Stronghold tools
 --------
 
 
-[dsdssdsd](Stronghold)
+[Go back to menu](#menu)
