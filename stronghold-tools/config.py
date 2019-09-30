@@ -21,6 +21,25 @@ if len(sys.argv) == 3:
         out_file.write(file_content)
     exit();
 
+#
+# message Config.dat {
+#   /* 2A bytes */
+#   widestring pseudo = 1;
+#   
+#   message Volum {
+#       float volum;
+#   }
+#
+#   Volum music = 2;
+#   Volum voice = 3;
+#   Volum sound = 4;
+#   /* 19 bytes */
+#   int32 game_speed = 5;
+#   int8 campaign_unlocked[12] = 6;
+#   int32 conquest_trail_status = 7;
+# }
+#
+
 read_compressed_file_content(file_name)
 skip_next_bytes(0x2A)
 
