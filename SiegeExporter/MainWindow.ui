@@ -37,7 +37,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>28</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFichier">
@@ -46,6 +46,8 @@
     </property>
     <addaction name="actionImport_Siege"/>
     <addaction name="actionExport_Siege"/>
+    <addaction name="actionDezip"/>
+    <addaction name="actionZip"/>
    </widget>
    <addaction name="menuFichier"/>
   </widget>
@@ -58,6 +60,16 @@
   <action name="actionExport_Siege">
    <property name="text">
     <string>Export Siege...</string>
+   </property>
+  </action>
+  <action name="actionDezip">
+   <property name="text">
+    <string>Dezip</string>
+   </property>
+  </action>
+  <action name="actionZip">
+   <property name="text">
+    <string>Zip</string>
    </property>
   </action>
  </widget>

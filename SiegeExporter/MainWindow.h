@@ -21,6 +21,8 @@ public:
 public slots:
     void importSiege();
     void exportSiege();
+    void dezipMap();
+    void zipMap();
 
 private:
     Ui::MainWindow *ui;

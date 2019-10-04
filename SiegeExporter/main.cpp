@@ -1,6 +1,9 @@
 #include "MainWindow.h"
 
 #include <QApplication>
+#include <QtTest>
+
+#ifndef TESTING
 
 int main(int argc, char *argv[])
 {
@@ -9,3 +12,5 @@ int main(int argc, char *argv[])
     w.show();
     return a.exec();
 }
+
+#endif

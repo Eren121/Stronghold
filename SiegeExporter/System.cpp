@@ -3,15 +3,12 @@
 #ifdef _WIN32
 #   include <Windows.h>
 #   include <ShlObj.h>
-#else
 #   include <QDir>
-#endif
+#   pragma comment(lib, "shell32.lib")
 
-#ifdef _WIN32
-#pragma(lib, "shell32.lib")
 namespace System
 {
-    QString getMyDcoumentsDirectoryPath()
+    QString getMyDocumentsDirectoryPath()
     {
         WCHAR myDocuments[MAX_PATH];
 
@@ -21,12 +18,17 @@ namespace System
         else {
             return QString();
         }
-        return QDir::homePath() + "/Documents";
     }
 
-    QString getMyDocumentsDirectoryPath();
-    QString getSh2UserFolder();
-    QString getS2hInstallFolder();
+    QString getSh2UserFolder()
+    {
+        return getMyDocumentsDirectoryPath() + "/Stronghold 2";
+    }
+
+    QString getS2hInstallFolder()
+    {
+        return "C:/Program Files (x86)/Steam/steamapps/common/Stronghold 2";
+    }
 }
 #else
 

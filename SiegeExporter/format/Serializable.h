@@ -57,4 +57,37 @@ public:
     }
 };
 
+template<>
+class Primitive<QByteArray>
+    : public Serializable
+{
+private:
+    QByteArray value;
+
+public:
+    Primitive()
+    {
+    }
+
+    Primitive(const QByteArray& value)
+        : value(value)
+    {
+    }
+
+    void readObject(QDataStream &stream) override
+    {
+        value = stream.device()->readAll();
+    }
+
+    void writeObject(QDataStream &stream) override
+    {
+        stream.writeRawData(value.data(), value.size());
+    }
+
+    inline QByteArray& get()
+    {
+        return value;
+    }
+};
+
 #endif // SERIALIZABLE_H

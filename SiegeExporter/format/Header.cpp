@@ -4,9 +4,9 @@ void Header::removeAuthor()
 {
     auto& vec = stringOptions.get();
 
-    for(size_t i = 0; i < vec.size(); i++) {
+    for(int i = 0; i < vec.size(); i++) {
 
-        if(vec[i].getKey().get() == "author") {
+        if(vec[i].getKey().get() == std::string("author")) {
 
             vec.remove(i);
         }
@@ -17,7 +17,7 @@ bool Header::set(const std::string &key, const std::string &value)
 {
     auto& vec = stringOptions.get();
 
-    for(size_t i = 0; i < vec.size(); i++) {
+    for(int i = 0; i < vec.size(); i++) {
 
         if(vec[i].getKey().get() == key) {
 
