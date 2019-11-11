@@ -1,0 +1,25 @@
+ArmedPeasant EB130C
+Spearman EB23F4
+Archer EB367C
+Crossbowman EB16F4
+Maceman EB1E6C
+Pikeman EB221C
+Swordsman EB25CC
+Knight EB1AB4
+
+Monk EB2044
+WarriorMonk EB27A4
+
+BoatWarrior EB2F14
+Outlaw EB30EC
+Berserker EB2B5C
+AxeThrower EB2984
+LightCavalry EB32CC
+HorseArcher EB2D3C
+Assassin EB14E4
+Thief EB34A4
+
+Ladderman EB1C8C
+Engineer EB18D4
+
+Lord EBCC7C

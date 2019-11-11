@@ -1,0 +1,1 @@
+./build-Debug//stats.cpp.o ./build-Debug//main.cpp.o   

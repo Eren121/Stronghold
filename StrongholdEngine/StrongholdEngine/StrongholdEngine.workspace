@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="StrongholdEngine" Database="" Version="10000">
+  <Project Name="StrongholdEngine" Path="StrongholdEngine.project" Active="Yes"/>
+  <Project Name="StrongholdEngine" Path="StrongholdEngine.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="StrongholdEngine" ConfigName="Debug"/>
+      <Project Name="StrongholdEngine" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="StrongholdEngine" ConfigName="Release"/>
+      <Project Name="StrongholdEngine" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
